@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		.line{ width:50px; height:5px; border:1px solid red; margin-left:34px; border-radius: 8px; }
+		.circle{ width:20px; height:20px; border:1px solid red; 
+			border-radius:50%; 
+			margin-left:49px; 
+			margin-top:-15px; 
+			background:white; 
+		}
+		.lin-circle:hover .line{
+			margin-left:34px;  
+			transform:rotate(180deg);
+			transition-duration:2s; 
+		}
+		.lin-circle:hover .circle{ 
+			background:red; 
+		}
+	</style>
+</head>
+<body style="padding-top:100px; ">
+	<div class="lin-circle">
+		<div class="line"></div>
+		<div class="circle"></div>
+	</div>
+</body>
+</html>

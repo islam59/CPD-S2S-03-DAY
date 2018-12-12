@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css"> 
+		div{
+			width:100px; 
+			height:100px;  
+			
+			text-align:center; 
+			line-height:100px;  
+			font-size:30px; 
+			border-radius:50%;
+			
+			animation:border-anim 3s infinite; 
+		}
+		@keyframes border-anim{
+			0%{
+				border-top:2px solid transparent; 
+				border-right:2px solid transparent; 
+				border-bottom:2px solid transparent; 
+				border-left:2px solid transparent; 
+			}
+			25%{
+				border-top:2px solid red; 
+				border-right:2px solid transparent; 
+				border-bottom:2px solid transparent; 
+				border-left:2px solid transparent; 
+			}
+			50%{
+				border-top:2px solid transparent; 
+				border-right:2px solid red; 
+				border-bottom:2px solid transparent; 
+				border-left:2px solid transparent; 
+			}
+			75%{
+				border-top:2px solid transparent; 
+				border-right:2px solid transparent; 
+				border-bottom:2px solid red; 
+				border-left:2px solid transparent; 			
+			}
+			100%{
+				border-top:2px solid transparent; 
+				border-right:2px solid transparent; 
+				border-bottom:2px solid transparent; 
+				border-left:2px solid red; 
+			}
+		}
+	</style>
+</head>
+<body style="width:80%; margin:100px auto; ">
+	
+	<div>100%</div>
+	
+</body>
+</html>

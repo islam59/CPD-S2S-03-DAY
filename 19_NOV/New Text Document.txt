@@ -1,0 +1,21 @@
+
+	color:
+	font-size:
+	font-weight:
+	text-decoration:
+	text-shadow:
+	line-height:
+	background:
+	background-image:
+	height:
+	width:
+	border:
+	border-radius:
+	box-shadow:
+	opacity:
+	
+	margin:
+	padding:
+	float:
+	z-index:
+	position:
