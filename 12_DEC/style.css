@@ -1,0 +1,10 @@
+.menu{
+		color:white;  text-decoration:none; padding:4px 10px; margin:5px; font-weight:bold;
+		border-radius:3px; 
+}
+
+.red{ background:red; }
+.lightgreen{ background:lightgreen; }
+.purple{ background:purple; }
+.orange{ background:orange; }
+.black{ background:black; }
