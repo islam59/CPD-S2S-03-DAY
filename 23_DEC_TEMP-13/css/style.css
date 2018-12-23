@@ -1,0 +1,23 @@
+/*
+	Theme Name: BS- wd-03 | Temp 13
+	Theme URI: https://www.cpds2s.com/
+*/
+
+.section-header{
+	background-image:url('../2.jpg'); 	
+	background-size:100%; 
+	height:400px; 
+	background-repeat:no-repeat; 
+}
+
+.navbar-default{
+	background:transparent; 
+	border:0px; 
+	border-radius:0px; 
+	box-shadow:none; 
+}
+.s-active{
+	background:rgba(250,250,240, 0.3); 
+	color:red; font-weight:bold; 
+	
+}
