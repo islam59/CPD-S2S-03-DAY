@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<h1 style="background:lightgreen; padding:10%;" id="output"> </h1>
+		
+		<script type="text/javascript">
+			function preMessage(a,b){
+				msg = 'Value1 = '+a+' <br/> Value2 = '+b+'<Br/><hr/>'; 
+				return msg; 
+			}
+	
+			function addition( a, b) {
+				 result = (a+b);  return result; 
+			}			
+			function subtruction( a, b) {
+				 result = (a-b);  return result; 
+			}
+			
+			document.getElementById("output").innerHTML = preMessage(78,8)+'ADD = '+addition(78,8)+'<Br/> SUB= '+subtruction(78,8); 	
+			
+			
+		</script>
+		
+	</body>
+</html>
