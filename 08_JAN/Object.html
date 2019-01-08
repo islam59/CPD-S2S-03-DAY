@@ -1,0 +1,36 @@
+<html>
+	<head></head>
+	<body>
+
+		<script>
+				function one() {
+					var a = document.getElementById("n1").value; 
+					document.getElementById("box").innerHTML=a; 
+				}
+				function plus() {
+					var plus = document.getElementById("plus").value; 
+					document.getElementById("box").innerHTML=plus; 
+				}
+		</script>
+		<div id="box" style="width:60px; height:15px; padding:1%; font-size:1em; background:pink; " readonly></div><br/>
+		
+		<button id="n1" value="1"  onClick="one()">1</button> 
+		<button id="n2" value="2">2</button> 
+		 <button id="n3" value="3">3</button> 
+		 <br/>
+		 <button id="n4" value="4">4</button> 
+		<button id="n5" value="5">5</button> 
+		<button id="n6" value="6">6</button> 
+		<br/>
+		<button id="n7" value="7">7</button>
+		<button id="n8" value="8">8</button> 
+		 <button id="n9" value="9">9</button> 
+		 <br/>
+		 <button id="n0" value="0">0</button> 
+		
+		
+		<button id="plus" value="+" onClick="plus()">+</button>
+		
+
+	</body>
+</html>
