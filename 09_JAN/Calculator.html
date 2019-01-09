@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<style type="text/css">
+			.calbody{ width:300px; margin:100px auto; }
+			input[type="button"]{ width:20px;  height:20px; text-align:center; margin:2px;  }
+			input[type="text"]{ width:110px; margin:0px auto; }
+		</style>
+		
+		<script type="text/javascript">
+			function displaynum(n1){
+				calcform.txt1.value = calcform.txt1.value+n1; 
+			}
+		</script>
+	</head>
+	<body>
+<div class="calbody">
+		<form name="calcform">
+			<input type="text" name="txt1" style="text-align:right;"/><br/><br/>
+			
+			<input type="button" name="btn7" value="7" onclick="displaynum(btn7.value)">
+			<input type="button" name="btn8" value="8" onclick="displaynum(btn8.value)">
+			<input type="button" name="btn9" value="9" onclick="displaynum(btn9.value)">
+			<input type="button" name="mul" value="*" onclick="displaynum(mul.value)"><br/>
+			
+			<input type="button" name="btn4" value="4" onclick="displaynum(btn4.value)">
+			<input type="button" name="btn5" value="5" onclick="displaynum(btn5.value)">
+			<input type="button" name="btn6" value="6" onclick="displaynum(btn6.value)">
+			<input type="button" name="min" value="-" onclick="displaynum(min.value)"><br/>
+			
+			<input type="button" name="btn1" value="1" onclick="displaynum(btn1.value)">
+			<input type="button" name="btn2" value="2" onclick="displaynum(btn2.value)">
+			<input type="button" name="btn3" value="3" onclick="displaynum(btn3.value)">
+			<input type="button" name="plus" value="+" onclick="displaynum(plus.value)"><br/>
+			
+			<input type="button" name="pont" value="." onclick="displaynum(pont.value)">
+			<input type="button" name="btn0" value="0" onclick="displaynum(btn0.value)">
+			<input type="button" name="equal" value="=" onclick="txt1.value=eval(txt1.value)">
+			<input type="button" name="div" value="/" onclick="displaynum(div.value)"><br/>
+		</form>
+</div>
+	</body>
+</html>
